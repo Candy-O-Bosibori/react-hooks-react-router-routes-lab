@@ -14,35 +14,18 @@ function NavBar() {
 
   return (
     <div>
-      <NavLink
-        to="/"
-        exact
-        style={linkStyles}
-       
-      >
+      <NavLink to="/" exact style={linkStyles}>
         Home
       </NavLink>
 
-      <NavLink
-        to="/movies"
-        style={linkStyles}
-       
-      >
+      <NavLink to="/movies" style={linkStyles}>
         Movies
       </NavLink>
 
-      <NavLink
-        to="/directors"
-        style={linkStyles}
-       
-      >
+      <NavLink to="/directors" style={linkStyles}>
         Directors
       </NavLink>
-      <NavLink
-        to="/actors"
-        style={linkStyles}
-      
-      >
+      <NavLink to="/actors" style={linkStyles}>
         Actors
       </NavLink>
     </div>
